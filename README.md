@@ -1,41 +1,17 @@
-# Mortality
+# Age Calculator
 
-A Chrome extension that shows a live counter of your age to motivate you to live life to the fullest.
+A Raycast extension to calculate your age with high precision.
 
-![Screenshot Light Theme](/images/screenshot_chrome_light.png?raw=true)
+## How to use
 
-![Screenshot Dark Theme](/images/screenshot_chrome_dark.png?raw=true)
+1.  Open Raycast and type "Age Calculator".
+2.  If you haven't set your date of birth, you will be prompted to do so.
+3.  Once you have set your date of birth, your age will be displayed with a high degree of precision.
 
-## Install
+## How to install
 
-<a href="https://chrome.google.com/webstore/detail/mortality/dmcopoldcoemapdejndbdnfmbofbkmbh"><img src="./images/chrome_logo.svg" width="50px"/> Add to Chrome</a>
-
-<a href="https://addons.mozilla.org/firefox/addon/mortality/"><img src="./images/firefox_logo.svg" width="50px"/> Add to FireFox</a>
-
-<a href="https://microsoftedge.microsoft.com/addons/detail/dljbhjjkfdabmfijhmcoodklndhminom"><img src="./images/edge_logo.svg" width="50px"/> Add to Edge</a>
-
-## Project setup
-```
-yarn install --frozen-lockfile
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-Built package will be created under `artifacts` folder.
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-## Credits
-
-- Inspired by [Motivation Chrome extension](https://chrome.google.com/webstore/detail/motivation/ofdgfpchbidcgncgfpdlpclnpaemakoj)
-- Icon from <https://icons8.com/>
+1.  Clone this repository.
+2.  Run `npm install` in the root of the repository.
+3.  Run `npm run dev` to start the development server.
+4.  Open Raycast and type "Import Extension".
+5.  Select the root of this repository.

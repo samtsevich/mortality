@@ -1,0 +1,8 @@
+{
+  "extends": "@raycast/script/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "noImplicitAny": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}

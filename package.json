@@ -1,33 +1,21 @@
 {
-  "name": "mortality",
-  "version": "1.2.0",
+  "name": "age-calculator",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service build --mode development --watch",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "lint": "ray lint"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11",
-    "vue-router": "^3.2.0",
-    "vuex": "^3.4.0"
+    "@raycast/api": "^1.77.0",
+    "react": "^18.2.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-plugin-vuex": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/eslint-config-prettier": "^6.0.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-vue": "^7.15.0",
-    "prettier": "^2.2.1",
-    "sass": "^1.26.5",
-    "sass-loader": "^12.1.0",
-    "vue-cli-plugin-browser-extension": "latest",
-    "vue-template-compiler": "^2.6.11"
+    "@raycast/eslint-config": "^2.0.4",
+    "@types/node": "~20.10.0",
+    "@types/react": "^18.2.38",
+    "eslint": "^8.54.0",
+    "typescript": "^5.2.2"
   }
 }
